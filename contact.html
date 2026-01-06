@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact BTH Education Group - Get in touch for program information, enrollment, or corporate training inquiries.">
+    <title>Contact Us | BTH Education Group</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="site-logo">
+                <div class="logo-main">BTH EDUCATION GROUP</div>
+                <div class="logo-sub">Language & Literacy Institute</div>
+            </a>
+            
+            <nav class="main-nav" role="navigation">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a href="/programs/" class="nav-link">Programs</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/programs/literacy.html" class="dropdown-link">English Literacy</a></li>
+                            <li><a href="/programs/vocational-english.html" class="dropdown-link">Vocational English</a></li>
+                            <li><a href="/programs/corporate-english.html" class="dropdown-link">Corporate English</a></li>
+                            <li><a href="/programs/executive-english.html" class="dropdown-link">Executive English</a></li>
+                            <li><a href="/programs/certification-english.html" class="dropdown-link">Certification English</a></li>
+                            <li><a href="/programs/german-program.html" class="dropdown-link">German Program</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="/why-bth.html" class="nav-link">Why BTH</a></li>
+                    <li class="nav-item"><a href="/diplomas.html" class="nav-link">Diplomas</a></li>
+                    <li class="nav-item"><a href="/corporate-solutions.html" class="nav-link">Corporate Solutions</a></li>
+                    <li class="nav-item"><a href="/contact.html" class="nav-link active">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="/enrollment.html" class="btn btn-primary btn-sm">Enrol Now</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" style="padding: var(--space-12) 0;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 style="font-size: var(--font-size-4xl);">Get in Touch</h1>
+                <p style="font-size: var(--font-size-lg);">
+                    Have questions? Ready to enroll? Need corporate training? We're here to help.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-cols-2">
+                <!-- Contact Form -->
+                <div class="animate-on-scroll">
+                    <h2>Send Us a Message</h2>
+                    <p style="color: var(--color-gray-600); margin-bottom: var(--space-8);">
+                        Fill out the form below and we'll get back to you within 24 hours.
+                    </p>
+
+                    <form data-validate id="contactForm">
+                        <div class="form-group">
+                            <label for="fullName" class="form-label">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest" class="form-label">I'm Interested In *</label>
+                            <select id="interest" name="interest" class="form-select" required>
+                                <option value="">Select an option...</option>
+                                <option value="literacy">English Language Literacy</option>
+                                <option value="vocational">Vocational & Trade English</option>
+                                <option value="corporate">Corporate & Professional English</option>
+                                <option value="executive">Executive & CEO English</option>
+                                <option value="certification">Certification English</option>
+                                <option value="german">German Language Program</option>
+                                <option value="corporate-training">Corporate Training Solutions</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" required placeholder="Tell us about your language learning goals or questions..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="animate-on-scroll">
+                    <h2>Contact Information</h2>
+                    <p style="color: var(--color-gray-600); margin-bottom: var(--space-8);">
+                        Reach us through any of these channels
+                    </p>
+
+                    <div class="card" style="margin-bottom: var(--space-6);">
+                        <div class="card-icon">🌐</div>
+                        <h3 class="card-title">Website</h3>
+                        <p class="card-description">
+                            <a href="https://language.btheducationgroup.com" style="color: var(--color-primary); font-weight: var(--font-weight-semibold);">
+                                language.btheducationgroup.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: var(--space-6);">
+                        <div class="card-icon">✉️</div>
+                        <h3 class="card-title">Email</h3>
+                        <p class="card-description">
+                            <strong>General Inquiries:</strong><br>
+                            info@btheducationgroup.com
+                        </p>
+                        <p class="card-description">
+                            <strong>Corporate Training:</strong><br>
+                            corporate@btheducationgroup.com
+                        </p>
+                        <p class="card-description">
+                            <strong>Executive Program:</strong><br>
+                            executive@btheducationgroup.com
+                        </p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: var(--space-6);">
+                        <div class="card-icon">📞</div>
+                        <h3 class="card-title">Phone</h3>
+                        <p class="card-description">
+                            <strong>Main Line:</strong><br>
+                            +[Your Phone Number]
+                        </p>
+                        <p class="card-description">
+                            <strong>WhatsApp:</strong><br>
+                            +[Your WhatsApp Number]
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon">📍</div>
+                        <h3 class="card-title">Location</h3>
+                        <p class="card-description">
+                            [Your Physical Address]<br>
+                            [City, Country]
+                        </p>
+                    </div>
+
+                    <div style="margin-top: var(--space-8);">
+                        <h3>Office Hours</h3>
+                        <p style="color: var(--color-gray-600);">
+                            <strong>Monday - Friday:</strong> 8:00 AM - 6:00 PM<br>
+                            <strong>Saturday:</strong> 9:00 AM - 2:00 PM<br>
+                            <strong>Sunday:</strong> Closed
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-gray-50">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Quick Links</h2>
+                <p class="section-description">Looking for something specific?</p>
+            </div>
+
+            <div class="grid grid-cols-4 animate-on-scroll">
+                <div class="card">
+                    <h4>New Students</h4>
+                    <p class="card-description">Ready to start? Begin with a free assessment.</p>
+                    <a href="/enrollment.html" class="btn btn-outline" style="margin-top: var(--space-4); width: 100%;">Enrol Now</a>
+                </div>
+
+                <div class="card">
+                    <h4>Corporate Clients</h4>
+                    <p class="card-description">Request customized training for your organization.</p>
+                    <a href="/corporate-solutions.html" class="btn btn-outline" style="margin-top: var(--space-4); width: 100%;">Corporate Training</a>
+                </div>
+
+                <div class="card">
+                    <h4>Executive Program</h4>
+                    <p class="card-description">Confidential inquiry for CEO and executive coaching.</p>
+                    <a href="/programs/executive-english.html" class="btn btn-outline" style="margin-top: var(--space-4); width: 100%;">Executive Program</a>
+                </div>
+
+                <div class="card">
+                    <h4>Browse Programs</h4>
+                    <p class="card-description">Explore all language programs and certifications.</p>
+                    <a href="/programs/" class="btn btn-outline" style="margin-top: var(--space-4); width: 100%;">View Programs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BTH Education Group</h3>
+                    <p>Language & Literacy Institute<br>Building leaders through language.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Programs</h3>
+                    <ul class="footer-links">
+                        <li><a href="/programs/literacy.html">English Literacy</a></li>
+                        <li><a href="/programs/vocational-english.html">Vocational English</a></li>
+                        <li><a href="/programs/corporate-english.html">Corporate English</a></li>
+                        <li><a href="/programs/executive-english.html">Executive English</a></li>
+                        <li><a href="/programs/certification-english.html">Certification English</a></li>
+                        <li><a href="/programs/german-program.html">German Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="/why-bth.html">Why BTH</a></li>
+                        <li><a href="/diplomas.html">Diplomas</a></li>
+                        <li><a href="/corporate-solutions.html">Corporate Solutions</a></li>
+                        <li><a href="/enrollment.html">Enrollment</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>language.btheducationgroup.com<br>info@btheducationgroup.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 BTH Education Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

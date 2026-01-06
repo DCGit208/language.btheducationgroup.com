@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enrol at BTH Education Group - Start with a free language assessment and diagnostic evaluation.">
+    <title>Enrollment & Assessment | BTH Education Group</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="site-logo">
+                <div class="logo-main">BTH EDUCATION GROUP</div>
+                <div class="logo-sub">Language & Literacy Institute</div>
+            </a>
+            
+            <nav class="main-nav" role="navigation">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a href="/programs/" class="nav-link">Programs</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/programs/literacy.html" class="dropdown-link">English Literacy</a></li>
+                            <li><a href="/programs/vocational-english.html" class="dropdown-link">Vocational English</a></li>
+                            <li><a href="/programs/corporate-english.html" class="dropdown-link">Corporate English</a></li>
+                            <li><a href="/programs/executive-english.html" class="dropdown-link">Executive English</a></li>
+                            <li><a href="/programs/certification-english.html" class="dropdown-link">Certification English</a></li>
+                            <li><a href="/programs/german-program.html" class="dropdown-link">German Program</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="/why-bth.html" class="nav-link">Why BTH</a></li>
+                    <li class="nav-item"><a href="/diplomas.html" class="nav-link">Diplomas</a></li>
+                    <li class="nav-item"><a href="/corporate-solutions.html" class="nav-link">Corporate Solutions</a></li>
+                    <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="/enrollment.html" class="btn btn-primary btn-sm active">Enrol Now</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Start Your Language Journey</h1>
+                <p style="font-size: var(--font-size-xl);">
+                    Every journey begins with understanding where you are. Book your free diagnostic assessment 
+                    and let us recommend the perfect program for you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-narrow">
+            <div class="section-header animate-on-scroll">
+                <h2>How Enrollment Works</h2>
+                <p class="section-description">Four simple steps to transforming your future through language</p>
+            </div>
+
+            <div class="animate-on-scroll">
+                <div class="card" style="padding: var(--space-8); margin-bottom: var(--space-6); border-left: 4px solid var(--color-primary);">
+                    <h3 style="color: var(--color-primary);">Step 1: Book Your Free Assessment</h3>
+                    <p>Fill out the enrollment form below. We'll contact you to schedule your diagnostic assessment—a confidential evaluation of your current language level, learning goals, and any specific challenges.</p>
+                </div>
+
+                <div class="card" style="padding: var(--space-8); margin-bottom: var(--space-6); border-left: 4px solid var(--color-primary);">
+                    <h3 style="color: var(--color-primary);">Step 2: Receive Your Program Recommendation</h3>
+                    <p>Based on your assessment, we'll recommend the best program, level, and learning pathway for you. You'll receive clear information on duration, pricing, and expected outcomes.</p>
+                </div>
+
+                <div class="card" style="padding: var(--space-8); margin-bottom: var(--space-6); border-left: 4px solid var(--color-primary);">
+                    <h3 style="color: var(--color-primary);">Step 3: Confirm Enrollment</h3>
+                    <p>Review your program details, complete registration, and confirm your enrollment. We'll provide all necessary materials and schedule information.</p>
+                </div>
+
+                <div class="card" style="padding: var(--space-8); border-left: 4px solid var(--color-success);">
+                    <h3 style="color: var(--color-success);">Step 4: Begin Your Transformation</h3>
+                    <p>Start your classes with confidence. Your instructor will guide you through every step, adapting to your pace and ensuring your success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-gray-50">
+        <div class="container">
+            <div class="grid grid-cols-2">
+                <div class="animate-on-scroll">
+                    <h2>Book Your Free Assessment</h2>
+                    <p style="color: var(--color-gray-600); margin-bottom: var(--space-8);">
+                        Complete this form and we'll schedule your diagnostic assessment within 48 hours.
+                    </p>
+
+                    <form data-validate id="enrollmentForm">
+                        <div class="form-group">
+                            <label for="studentName" class="form-label">Full Name *</label>
+                            <input type="text" id="studentName" name="studentName" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="studentEmail" class="form-label">Email Address *</label>
+                            <input type="email" id="studentEmail" name="studentEmail" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="studentPhone" class="form-label">Phone Number *</label>
+                            <input type="tel" id="studentPhone" name="studentPhone" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="age" class="form-label">Age Group *</label>
+                            <select id="age" name="age" class="form-select" required>
+                                <option value="">Select age group...</option>
+                                <option value="child">Child (6-12)</option>
+                                <option value="teen">Adolescent (13-18)</option>
+                                <option value="adult">Adult (18+)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="programInterest" class="form-label">Program of Interest *</label>
+                            <select id="programInterest" name="programInterest" class="form-select" required>
+                                <option value="">Select a program...</option>
+                                <option value="literacy">English Language Literacy</option>
+                                <option value="vocational">Vocational & Trade English</option>
+                                <option value="corporate">Corporate & Professional English</option>
+                                <option value="executive">Executive & CEO English</option>
+                                <option value="certification">Certification English</option>
+                                <option value="german-a1">German A1 (Beginner)</option>
+                                <option value="german-a2">German A2 (Elementary)</option>
+                                <option value="german-b1">German B1 (Intermediate)</option>
+                                <option value="german-b2">German B2 (Upper Intermediate)</option>
+                                <option value="german-c1">German C1 (Advanced)</option>
+                                <option value="german-c2">German C2 (Mastery)</option>
+                                <option value="not-sure">Not Sure - Need Assessment</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="currentLevel" class="form-label">Current Language Level (Self-Assessment)</label>
+                            <select id="currentLevel" name="currentLevel" class="form-select">
+                                <option value="">Select current level...</option>
+                                <option value="beginner">Beginner (Little to no knowledge)</option>
+                                <option value="elementary">Elementary (Basic communication)</option>
+                                <option value="intermediate">Intermediate (Can hold conversations)</option>
+                                <option value="advanced">Advanced (Fluent with minor gaps)</option>
+                                <option value="not-sure">Not Sure</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="goals" class="form-label">Your Language Goals *</label>
+                            <textarea id="goals" name="goals" class="form-textarea" required placeholder="What do you want to achieve? (e.g., improve work opportunities, pass certification, study abroad, etc.)"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="challenges" class="form-label">Any Learning Challenges or Special Needs?</label>
+                            <textarea id="challenges" name="challenges" class="form-textarea" placeholder="Optional: Share any learning difficulties, dyslexia, or support you might need (confidential)"></textarea>
+                            <p class="form-helper">This information helps us provide better support. It remains completely confidential.</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="availability" class="form-label">Preferred Schedule</label>
+                            <select id="availability" name="availability" class="form-select">
+                                <option value="">Select preference...</option>
+                                <option value="weekday-morning">Weekday Mornings</option>
+                                <option value="weekday-afternoon">Weekday Afternoons</option>
+                                <option value="weekday-evening">Weekday Evenings</option>
+                                <option value="weekend">Weekends</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Book Free Assessment</button>
+                    </form>
+                </div>
+
+                <div class="animate-on-scroll">
+                    <h2>What to Expect</h2>
+                    
+                    <div class="card" style="margin-bottom: var(--space-6);">
+                        <h3 class="card-title">📋 Diagnostic Assessment (Free)</h3>
+                        <p class="card-description">
+                            <strong>Duration:</strong> 30-45 minutes<br>
+                            <strong>Format:</strong> In-person or online<br>
+                            <strong>What we evaluate:</strong> Current language level, comprehension, speaking, reading, writing, and learning style
+                        </p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: var(--space-6);">
+                        <h3 class="card-title">🎯 Personalized Program Recommendation</h3>
+                        <p class="card-description">
+                            We'll recommend the exact program, level, and learning pathway that matches your goals and current ability. No cookie-cutter solutions.
+                        </p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: var(--space-6);">
+                        <h3 class="card-title">💰 Transparent Pricing</h3>
+                        <p class="card-description">
+                            Clear information on program costs, duration, and payment options. No hidden fees. Flexible payment plans available.
+                        </p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: var(--space-6);">
+                        <h3 class="card-title">🚀 Fast Onboarding</h3>
+                        <p class="card-description">
+                            Once enrolled, you can start within days. We'll provide all materials and connect you with your instructor immediately.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3 class="card-title">🔒 Confidential & Judgment-Free</h3>
+                        <p class="card-description">
+                            Your assessment and enrollment are completely confidential. We create a safe, supportive environment where you can learn without fear or shame.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Ready to Transform Your Future?</h2>
+                <p>
+                    Don't wait another day. Your language journey starts with one simple step—book your free assessment now.
+                </p>
+                <a href="#enrollmentForm" class="btn btn-secondary btn-xl">Book Your Assessment</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BTH Education Group</h3>
+                    <p>Language & Literacy Institute<br>Building leaders through language.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Programs</h3>
+                    <ul class="footer-links">
+                        <li><a href="/programs/literacy.html">English Literacy</a></li>
+                        <li><a href="/programs/vocational-english.html">Vocational English</a></li>
+                        <li><a href="/programs/corporate-english.html">Corporate English</a></li>
+                        <li><a href="/programs/executive-english.html">Executive English</a></li>
+                        <li><a href="/programs/certification-english.html">Certification English</a></li>
+                        <li><a href="/programs/german-program.html">German Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="/why-bth.html">Why BTH</a></li>
+                        <li><a href="/diplomas.html">Diplomas</a></li>
+                        <li><a href="/corporate-solutions.html">Corporate Solutions</a></li>
+                        <li><a href="/enrollment.html">Enrollment</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>language.btheducationgroup.com<br>info@btheducationgroup.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 BTH Education Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
